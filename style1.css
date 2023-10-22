@@ -1,0 +1,60 @@
+body{
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.tema {
+    text-align: center;
+    padding: 10px;
+}
+
+.carousel-item {
+    max-height: 25rem; 
+}
+
+.card {
+    margin-top: 30px; /*Agrega espacio en la parte superior de las tarjetas */
+    width: 100px; /*Ancho de las tarjetas */
+    display:inline-block;
+}
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+  
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+
+label {
+    /* Tamaño y alineación uniforme */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+  
+  input{
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+  
+input:focus{
+
+    border-color: #000;
+}
+
+
+footer {
+    text-align: center;
+    padding: 12px;
+}
+
